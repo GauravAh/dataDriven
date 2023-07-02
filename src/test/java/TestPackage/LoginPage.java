@@ -10,7 +10,6 @@ import Utilities.HashUtilities;
 
 public class LoginPage extends SetUpClass {
 	
-	
 	@Test(priority = 1)
 		public void orangeUrl() throws Exception {
 		getBrowser().get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
