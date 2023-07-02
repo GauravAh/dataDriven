@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-02T08:58:41 IST" name="Suite" finished-at="2023-07-02T08:59:34 IST" duration-ms="53531">
+    <groups>
+    </groups>
+    <test started-at="2023-07-02T08:58:41 IST" name="Test" finished-at="2023-07-02T08:59:34 IST" duration-ms="53531">
+      <class name="TestPackage.LoginPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestPackage.LoginPage@2fd6b6c7]" started-at="2023-07-02T08:58:41 IST" name="setUp" finished-at="2023-07-02T08:58:56 IST" duration-ms="15109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orangeUrl()[pri:1, instance:TestPackage.LoginPage@2fd6b6c7]" started-at="2023-07-02T08:58:56 IST" name="orangeUrl" finished-at="2023-07-02T08:59:19 IST" duration-ms="23519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeUrl -->
+        <test-method signature="loginDataprovider(java.lang.String, java.lang.String)[pri:2, instance:TestPackage.LoginPage@2fd6b6c7]" started-at="2023-07-02T08:59:26 IST" name="loginDataprovider" data-provider="ExelData" finished-at="2023-07-02T08:59:29 IST" duration-ms="3164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abb@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataprovider -->
+        <test-method signature="loginDataprovider(java.lang.String, java.lang.String)[pri:2, instance:TestPackage.LoginPage@2fd6b6c7]" started-at="2023-07-02T08:59:29 IST" name="loginDataprovider" data-provider="ExelData" finished-at="2023-07-02T08:59:32 IST" duration-ms="2505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abbcc@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataprovider -->
+        <test-method signature="loginDataprovider(java.lang.String, java.lang.String)[pri:2, instance:TestPackage.LoginPage@2fd6b6c7]" started-at="2023-07-02T08:59:32 IST" name="loginDataprovider" data-provider="ExelData" finished-at="2023-07-02T08:59:34 IST" duration-ms="2600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abbccdd@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataprovider -->
+      </class> <!-- TestPackage.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
