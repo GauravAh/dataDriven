@@ -9,7 +9,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class SetUpClass{
 	
 	static ThreadLocal<WebDriver> driverLocal = new ThreadLocal<WebDriver>();
-	
 	@BeforeTest
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
